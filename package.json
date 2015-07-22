@@ -1,0 +1,11 @@
+{
+  "name": "MochaReport",
+  "version": "0.1.0",
+  "description": "Generate Mocha report in JSON format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Hill <athill@indiana.edu> (http://andyhill.us/)",
+  "license": "apache2"
+}
