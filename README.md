@@ -1,2 +1,2 @@
 # MochaReport
-NPM module for creating mocha 
+NPM module for creating mocha reports
