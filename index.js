@@ -52,4 +52,16 @@ MochaReport.prototype.getReport = function() {
     return this.report;
 }
 
+MochaReport.prototype.write = function(dest) {
+    var mkdirp = require('mkdirp'),
+        path = require('path'),
+        fs = require('fs');    
+    dest = dest || './target/report.json';
+    var dir = path.dirname(dest);
+    if (!fs.exists(dir)) {
+        mkdirp(dir);
+    }
+    fs.writeFileSync(dest, JSON.stringify(this.report, null, 2), 'utf-8');
+}
+
 module.exports = MochaReport;

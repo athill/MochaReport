@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andy Hill <athill@indiana.edu> (http://andyhill.us/)",
-  "license": "apache2"
+  "license": "apache2",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
 }
